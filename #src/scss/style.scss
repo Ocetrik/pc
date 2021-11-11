@@ -1,7 +1,7 @@
 @import "null.scss";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import "fonts";
 
 $font: "Open Sans";
 
@@ -251,7 +251,7 @@ line-height: 62px;
 }
 .history-info-text {
   margin-top: 21px;
-  font-family: Chmo;
+  font-family: $font;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -314,7 +314,8 @@ text-align: center;
 }
 
 .holiday__container {
-  background: url(/img/holiday.png);
+  background: url(/img/holiday.png) no-repeat;
+  background-size: cover;
   max-width: 1440px;
   padding-top: 80px;
   padding-bottom: 104px;
@@ -338,14 +339,13 @@ text-align: center;
   line-height: 33px;
   color: #FFFFFF;
   margin-top: 20px;
-  letter-spacing: 0.65px;
 }
 .holiday__row{
   display: flex;
   align-items: center;
 }
 .holiday__info{
-  flex: 0 1 60%;
+  flex: 0 1 62%;
 }
 .holiday__order {
   margin-right: 22px;
@@ -362,81 +362,9 @@ text-align: center;
   margin-left: auto;
 }
 
+@import "dish";
 
 
-
-
-.main__dishes {
-  background: #E5E5E5;
-  height: 963px;
-}
-
-.dished__container {
-  width: 1440px;
-  margin: 0 auto;
-  height: 963px;
-}
-
-.dishes__title {
-  font-family: 'Tinos';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 54px;
-  line-height: 62px;
-  padding: 139px 0 0 588px;
-}
-
-.dishes__content {
-  font-family: 'Tinos';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 30px;
-}
-
-.dishes__pic {
-  display: flex;
-}
-
-.dishes__piclist {
-  margin: 139px 0 0 165px;
-
-}
-
-.dishes__piclisth {
-  width: 210px;
-  height: 140px;
-  margin: 27px 0 0 58px;
-
-  &:first-child {
-    margin: 138px 0 0 58px;
-  }
-}
-
-.dishes__menu {
-  display: flex;
-  margin: 179px 0 0 2px;
-}
-
-.dishes__list {
-  margin: 134px 222px 0 0;
-
-  &:first-child {
-    margin: 0px 222px 0 0;
-  }
-}
-
-.dishes__row {
-  display: flex;
-}
-
-.dishes__price {
-  margin: 134px 0 0 0;
-
-  &:first-child {
-    margin: 0;
-  }
-}
 
 .main__menu {
   background: #E6E5E5;
