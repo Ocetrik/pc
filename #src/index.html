@@ -11,93 +11,9 @@
 <div class="wrapper">
     <div class="main">
         @@include('_main-cont.html')
-        <div class="main__history history">
-            <div class="history__container">
-                <div class="history__food food">
-                    <div class="food__item">
-                        <div class="food__pic"><img src="img/podnos.png" alt=""></div>
-                        <div class="food__title">Магическая <div class="food__color">Атмосфера</div></div>
-                        <div class="food__text">В нашем заведении царит магическая атмосфера
-                            наполненная вкусными ароматами</div>
-                    </div>
-                    <div class="food__item">
-                        <div class="food__pic"><img src="img/podnos.png" alt=""></div>
-                        <div class="food__title">Лучшее качество <div class="food__color">Еды</div></div>
-                        <div class="food__text">Качество нашей
-                            Еды - отменное!
-                            </div>
-                    </div>
-                    <div class="food__item">
-                        <div class="food__pic"><img src="img/podnos.png" alt=""></div>
-                        <div class="food__title">Недорогая <div class="food__color">Еда</div></div>
-                        <div class="food__text">Стоимость нашей Еды
-                            зависит только от ее
-                            количества. Качество
-                            всегда на высоте!</div>
-                    </div>
-                </div>
-                <div class="history__info info">
-                    <div class="info__container">
-                        <div class="info__title">Наша История</div>
-                        <div class="info__text">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.</div>
-                        <div class="info-container__numbers">
-                            <div class="info__numbers">93</div>
-                            <div class="info__numbers">206</div>
-                            <div class="info__numbers">71</div>
-                        </div>
-                        <div class="info-container__list">
-                            <div class="info__list">Напитки</div>
-                            <div class="info__list">Еда</div>
-                            <div class="info__list">Закуски</div>
-                        </div>
-                    </div>
-                    <div class="info__logo"><img src="img/images.png" alt=""></div>
-                </div>
-            </div>
-        </div>
-        <div class="main__holiday holiday">
-            <div class="holiday__container">
-                <div class="holiday__row">
-                    <div class="holiday__title">Отпразднуйте в одном из
-                        самых лучших ресторанов.</div>
-                    <div class="holiday__text">Только в этом месяце бизнес-ланч от 250 ₽</div>
-                </div>
-                <div class="holiday__row">
-                    <button class="holiday__order">ЗАКАЗ СТОЛИКА</button>
-                </div>
-            </div>
-        </div>
-        <div class="main__dishes dishes">
-            <div class="dished__container">
-                <div class="dishes__title">Наши Блюда</div>
-                <div class="dishes__content">
-                    <div class="dishes__row">
-                        <div class="dishes__pic">
-                            <div class="dishes__picrow">
-                                <div class="dishes__piclist"><img src="img/pizza-1.png" alt=""></div>
-                            </div>
-                            <div class="dishes__picrow">
-                                <div class="dishes__piclisth"><img src="img/hamburger-1.png" alt=""></div>
-                                <div class="dishes__piclisth"><img src="img/hamburger-1.png" alt=""></div>
-                                <div class="dishes__piclisth"><img src="img/hamburger-1.png" alt=""></div>
-                            </div>
-                        </div>
-                        <div class="dishes__menu">
-                            <div class="dishes__menurow">
-                                <div class="dishes__list">Гамбургер мини</div>
-                                <div class="dishes__list">Гамбургер мини</div>
-                                <div class="dishes__list">Гамбургер мини</div>
-                            </div>
-                            <div class="dishes__pricerow">
-                                <div class="dishes__price">220 ₽</div>
-                                <div class="dishes__price">220 ₽</div>
-                                <div class="dishes__price">220 ₽</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @@include('_main-hist.html')
+        @@include('_main-holiday.html')
+        @@include('_main-dish.html')
         <div class="main__menu menu">
             <div class="menu__container">
                 <div class="menu__title">Наше меню</div>
@@ -131,62 +47,10 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="main__visitor visitor">
-            <div class="visitor__container">
-                <div class="visitor__text">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</div>
-                <div class="visitor__pic"><img src="img/nikola.png" alt=""></div>
-                <div class="visitor__visitor">Посетитель</div>
-                <div class="visitor__name">Николай</div>
-                <div class="visitor__slider slider">
-                    <div class="slider__content">
-                        <div class="slider__item-1"></div>
-                        <div class="slider__item-2"></div>
-                        <div class="slider__item-3"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main__gallery gallery">
-            <div class="gallery__container">
-                <div class="gallery__figure"></div>
-                <div class="gallery__figure"></div>
-                <div class="gallery__title">Галерея Блюд</div>
-                <div class="gallery__pictures pictures">
-                    <div class="pictures__mainrow">
-                        <div class="pictures__subrow"><img src="img/bokali.png" alt="">
-                            <div class="pictures__lowrow">
-                                <div class="pictures__item"><img src="img/coffee.png" alt=""></div>
-                                <div class="pictures__item-2"><img src="img/soup.png" alt=""></div>
-                            </div>
-                        </div>
-
-                        <div class="pictures__subrow-2">
-                            <div class="pictures__lowrow-2">
-                                <div class="pictures__item"><img src="img/coffee.png" alt=""></div>
-                                <div class="pictures__item"><img src="img/soup.png" alt=""></div>
-                            </div>
-                            <img src="img/bokali.png" alt="">
-                        </div>
-                    </div>
-                    <div class="pictures__mainrow">
-                        <div class="pictures__subrow"></div>
-                </div>
-                </div>
-                <div class="gallery__title2">Наши Повара</div>
-                <div class="gallery__pictures pictures">
-                    <ul class="pictures__list">
-                        <li class="pictures__items"><img src="img/cooker1.png" alt=""></li>
-                        <li class="pictures__items"><img src="img/cooker2.png" alt=""></li>
-                        <li class="pictures__items"><img src="img/cooker3.png" alt=""></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="main__wine wine">
-            <div class="wine_container">
-        </div>
-    </div>
+         </div>
+        @@include('_main-visit.html')
+        @@include('_main-gallery.html')
+        @@include('_main-wine.html')
     <div class="footer"></div>
 </div>
 </body>
