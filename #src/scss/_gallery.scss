@@ -1,0 +1,107 @@
+.main__gallery {
+   background: #E5E5E5;
+ }
+ 
+ .gallery__container {
+  padding-top: 101px;
+  padding-bottom: 100px;
+  max-width: 1440px;
+   margin: 0 auto;
+   background: white;
+ }
+ 
+//  .gallery__red {
+// display: flex;
+//  }
+//  .gallery__first-child {   
+//   background: #FF0000;
+//   width: 30px;
+//   height: 100px;
+//   position: absolute; 
+//   margin-top: 121px;
+//   margin-left: -165px;
+// }
+// .gallery__last-child {
+//   background: #FF0000;
+//   width: 30px;
+//   height: 100px;
+//   position: absolute;
+//   margin-top: 121px;
+//   margin-left: 1246px;
+// }
+ 
+ .gallery__title {
+   text-align: center;
+   font-family: 'Tinos';
+   font-weight: normal;
+   font-size: 54px;
+   line-height: 62px;
+   padding-bottom: 59px;
+ }
+ .gallery__title2{
+   text-align: center;
+  font-family: 'Tinos';
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 62px;
+  padding-bottom: 107px;
+  padding-top: 100px;
+ }
+ .gallery__pictures {
+   display: flex;
+  }
+.pictures__subrow{
+  display: flex;
+  gap: 30px;
+}
+.pictures__mainrow{
+  padding-right: 28px;
+}
+.left{
+  padding-top: 30px;
+}
+.right{
+  padding-bottom: 30px;
+}
+
+
+
+.pictures__mainpic {
+  img{
+    width: 100%;
+  }
+}
+.pictures__subpic {
+  img{
+    width: 100%;
+  }
+}
+
+
+ .gallery__cookers {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ .pictures__list {
+   display: flex;
+   gap: 30px;
+ }
+ 
+ .pictures__items {
+   img{
+     width: 100%;
+     height: auto;
+   }
+ }
+ 
+ .gallery__title2 {
+   text-align: center;
+   padding-bottom: 107px;
+   font-family: 'Tinos';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 54px;
+   line-height: 62px;
+ }
+ 
