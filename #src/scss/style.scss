@@ -187,7 +187,6 @@ $font: "Open Sans";
 .history__content{
   max-width: 1440px;
   margin: 0 auto;
-  background-color: #fff;
   height: 991px;
 }
 .history__content-container{
@@ -209,6 +208,7 @@ $font: "Open Sans";
   max-width: 349px;
   background: #FFFFFF;
 box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+align-items: center;
 }
 .history-intro__pic {
   margin-top: 48px;
@@ -229,6 +229,8 @@ font-weight: normal;
 font-size: 26px;
 line-height: 30px;
 color: #656363;
+max-width: 85%;
+text-align: center;
 }
 .history__info {
   height: 620px;
@@ -364,119 +366,9 @@ text-align: center;
 
 @import "dish";
 
+@import "menu";
 
 
-.main__menu {
-  background: #E6E5E5;
-  height: 1034px;
-}
-
-.menu__container {
-  background: url('/img/menu.png');
-  height: 1034px;
-  margin: 0 auto;
-  width: 1440px;
-}
-
-.menu__title {
-  font-family: 'Tinos';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 54px;
-  line-height: 62px;
-  color: #FFFFFF;
-  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
-  padding: 98px 0px 0 590px;
-}
-
-.menu__row {
-
-}
-
-.menu__list {
-  margin: 0 auto;
-  width: 1110px;
-  display: flex;
-}
-
-.menu__item {
-  margin: 136px 30px 0 0;
-  width: 350px;
-  height: 510px;
-  background: #fff;
-
-  &:last-child {
-    margin: 136px 0 0 0;
-  }
-}
-
-.item {
-}
-
-.item__pic {
-  padding: 80px 0 0 62px;
-}
-
-.item__title {
-  font-family: 'Tinos';
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 30px;
-  padding: 22px 0 0 81px;
-}
-
-.item__text {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  margin: 17px 0 0 62px;
-  width: 206px;
-  text-align: center;
-  height: 37px;
-}
-
-.item__order {
-  padding: 14px 68px;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
-  background: #D67E34;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-  margin: 20px 0 0 65px;
-  color: #fff;
-}
-
-.item__rec {
-  position: absolute;
-  padding: 7px 11px 11px 12px;
-  background: #D67E34;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 18px;
-}
-
-.item__elipse {
-  position: absolute;
-  background: #D67E34;
-  border: 7px solid #FFFFFF;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Cookie';
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 33px;
-  color: white;
-  margin: 205px 61px 205px 189px;
-}
 
 .main__visitor {
   background: #E6E5E5;
