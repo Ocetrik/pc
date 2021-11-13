@@ -163,7 +163,6 @@ $font: "Open Sans";
     background-color: #FFFFFF;
   }
 }
-
 .main-title__menu {
   text-align: center;
   margin-top: 21px;
@@ -250,6 +249,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 54px;
 line-height: 62px;
+span{
+  color: #D67E34;
+}
 }
 .history-info-text {
   margin-top: 21px;
@@ -311,58 +313,7 @@ text-align: center;
 
 
 
-.main__holiday {
-  background: #080C0E;
-}
-
-.holiday__container {
-  background: url(/img/holiday.png) no-repeat;
-  background-size: cover;
-  max-width: 1440px;
-  padding-top: 80px;
-  padding-bottom: 104px;
-  margin: 0 auto;
-  display: flex;
-}
-
-
-.holiday__title {
-  font-family: 'Tinos';
-  font-weight: normal;
-  font-size: 52px;
-  line-height: 60px;
-  color: #D67E34;
-}
-
-.holiday__text {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 33px;
-  color: #FFFFFF;
-  margin-top: 20px;
-}
-.holiday__row{
-  display: flex;
-  align-items: center;
-}
-.holiday__info{
-  flex: 0 1 62%;
-}
-.holiday__order {
-  margin-right: 22px;
-  margin-top: 23px;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 19px;
-  color: #FFFFFF;
-  height: 47px;
-  width: 157px;
-  background: #FF7400;
-  margin-left: auto;
-}
+@import "holiday";
 
 @import "dish";
 
@@ -377,14 +328,16 @@ text-align: center;
 
 .wine {
   background: #E5E5E5;
-  height: 672px;
+  height: 732px;
 }
 
 .wine_container {
   max-width: 1440px;
-  background: url(/img/wine.png) no-repeat;
+//  background: url(/img/wine.png) no-repeat;
   margin: 0 auto;
   height: 100%;
-  background-size: cover;
-
+  // background-size: 100% contain;
+  img{
+    width: 100%;
+  }
 }
