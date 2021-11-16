@@ -1,3 +1,4 @@
+@import "system/mixins";
 .dishes-menu{
    display: flex;
    flex-direction: column;
@@ -24,14 +25,14 @@
 .main__dishes {
    background: #E5E5E5;
 }
- 
+
  .dishes__container {
    max-width: 1440px;
    margin: 0 auto;
    padding-top: 132px;
    padding-bottom: 152px;
  }
- 
+
  .dishes__title {
    font-family: 'Tinos';
    font-style: normal;
@@ -44,7 +45,7 @@
    }
    margin-bottom: 139px;
  }
- 
+
  .dishes__content {
    font-family: 'Tinos';
    font-style: normal;
@@ -56,7 +57,7 @@
    display: flex;
    gap: 30px;
  }
- 
+
  .dishes__menu {
    display: flex;
   flex:1 1 100%;
@@ -67,3 +68,43 @@
        height: 100%;
     }
  }
+
+@include breakpoint() {
+  .dishes-menu {
+    font-size: 22px;
+    &__item {
+      gap: 7px
+    }
+    &__line {
+      display: none;
+    }
+    &__info {
+      flex-direction: column;
+    }
+    &__img {
+      width: min(100%, 130px);
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .dishes__container {
+    padding-top: 68px;
+    padding-bottom: 126px;
+  }
+  .dishes__title {
+    margin-bottom: 68px;
+    font-size: 40px;
+  }
+  .dishes__row {
+    flex-direction: column;
+  }
+  .dishes__main-picture {
+    img {
+      width: 100%;
+
+    }
+  }
+
+
+}

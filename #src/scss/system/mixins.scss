@@ -7,3 +7,10 @@
     font-style: #{$style};
   }
 }
+
+@mixin breakpoint() {
+  @media screen and (max-width: 992px) {
+    @content
+  }
+
+}

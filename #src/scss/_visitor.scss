@@ -2,7 +2,7 @@
    background: #E6E5E5;
    height: 550px;
  }
- 
+
  .visitor__container {
    padding-top: 104px;
    padding-bottom: 107px;
@@ -14,7 +14,7 @@
    justify-content: center;
    text-align: center;
  }
- 
+
  .visitor__text {
     max-width: 920px;
    font-family: $font;
@@ -24,11 +24,11 @@
    line-height: 27px;
    text-align: center;
  }
- 
+
  .visitor__pic {
    padding-top: 20px;
 }
- 
+
  .visitor__visitor {
     padding-top: 16px;
    font-family: 'Open Sans';
@@ -36,7 +36,7 @@
    font-size: 20px;
    line-height: 27px;
  }
- 
+
  .visitor__name {
    font-family: 'Open Sans';
    font-style: normal;
@@ -44,33 +44,35 @@
    font-size: 20px;
    line-height: 27px;
    padding-top: 9px;
- 
+
  }
- 
+
  .visitor__slider {
    padding-top: 25px;
-   padding-left: 451px;
+   display: flex;
+   justify-content: center;
+   //padding-left: 451px;
 }
- 
+
  .slider__content {
    display: flex;
    gap: 2px;
  }
- 
+
  .slider__item-1 {
    border-radius: 100%;
    width: 5px;
    height: 5px;
    background: #C4C4C4;
  }
- 
+
  .slider__item-2 {
    border-radius: 100%;
    width: 5px;
    height: 5px;
    background: #C4C4C4;
  }
- 
+
  .slider__item-3 {
    border: 1px solid #FF7400;
    border-radius: 100%;
@@ -78,4 +80,3 @@
    width: 7px;
    height: 7px;
  }
- 
