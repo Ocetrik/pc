@@ -1,0 +1,161 @@
+.main-container {
+   max-width: 1440px;
+   margin: 0 auto;
+   background: url("/img/heroimage.png") no-repeat;
+ }
+ @media (max-width: 992px)
+ {
+    
+ };
+ .content-container {
+   max-width: 1140px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+ }
+ .main__title {
+   height: 800px;
+   background-position: center;
+   margin: 0 auto;
+ }
+ 
+ .main__header {
+   display: flex;
+   align-items: center;
+   padding-top: 60px;
+ }
+ 
+ .header__logo {
+ }
+ 
+ .header__nav {
+   margin-left: auto;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   line-height: 19px;
+   display: flex;
+   gap: 23px
+ }
+ .header__vertical-line {
+   height: 51px;
+   border: 1px solid #FFFFFF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin-left: 21px;
+   margin-right: 31px;
+ }
+ .main-title {
+   max-width: 521px;
+ }
+ .header__url {
+   color: #FFFFFF;
+ 
+ }
+ 
+ .header__item {
+   align-items: center;
+ }
+ 
+ .header__musor {
+   margin-left: 36px;
+ }
+ 
+ .header__phone {
+   color: white;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .phone__container {
+   display: flex;
+ }
+ 
+ .phone__pic {
+   margin: 0 8px 1px 0;
+ }
+ 
+ .phone__number {
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 25px;
+   font-family: "Open Sans", sans-serif;
+   margin: 0 45px 1px 0;
+ }
+ 
+ .phone__text {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   line-height: 19px;
+   width: 154px;
+ }
+ 
+ .header__order {
+   font-family: 'Open Sans', sans-serif;
+   background: #FF7400;
+   max-width: 157px;
+   height: 47px;
+   padding: 14px 19px 0 18px;
+   margin: 0 0 0 0;
+   font-weight: bold;
+   line-height: 19px;
+ }
+ 
+ .header-order__color {
+   color: white;
+ }
+ 
+ .main-title__welcome {
+   font-family: "Tinos";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 50px;
+   line-height: 57px;
+   color: #D67E35;
+   margin-top: 203px;
+   padding-left: 34px;
+ }
+ 
+ .main-title__restoran {
+   padding-left: 10px;
+   font-family: "Tinos";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 80px;
+   line-height: 92px;
+   color: #D67E35;
+ }
+ 
+ .main-title__food {
+   margin-top: 6px;
+   justify-content: center;
+   text-align: center;
+   font-family: "Open Sans", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 25px;
+   color: #FFFFFF;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   span:first-child, span:last-child {
+     display: block;
+     width: min(100%, 61px);
+     height: 2px;
+     background-color: #FFFFFF;
+   }
+ }
+ .main-title__menu {
+   text-align: center;
+   margin-top: 21px;
+   padding: 14px 28px;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 19px;
+   background: #FF7400;
+   color: white;
+   margin-left: 190px;
+ }
+ 
