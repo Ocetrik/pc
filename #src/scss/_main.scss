@@ -23,6 +23,9 @@
  }
  
  .header__logo {
+   padding-top: 20px;
+   padding-left: 14px;
+   margin: 0;
  }
  
  .header__nav {
@@ -171,54 +174,60 @@
 //   }
 // }
 @media screen and (max-width: 992px) {
-  .main-container {
-    max-width: 320px;
-  }
-  .content-container {
-  }
-  .main__title {
-  }
-  .header__nav{
-      display: none;
-  }
-  .header__musor{
-      display: none;
-  }
-  .header__vertical-line{
+  section{
     display: none;
   }
-  .header__phone{
-    display: none;
-  }
-  .header__order{
-    display: none;
-  }
-  .main-title{
-    display: flex;
-    flex-direction: column;
-    &__welcome{
-      padding-left: 100px;
-    }
-  }
-  .main-title__welcome{
-    justify-content: center;
-    padding-left: 0;
-    font-size: 30px;
+  // .main-container {
+  //   max-width: 320px;
+  // }
+  // .content-container {
+  // }
+  // .main__title {
+  // }
+  // .header__nav{
+  //     display: none;
+  // }
+  // .header__musor{
+  //     display: none;
+  // }
+  // .header__logo{
+  //   display: none;
+  // }
+  // .header__vertical-line{
+  //   display: none;
+  // }
+  // .header__phone{
+  //   display: none;
+  // }
+  // .header__order{
+  //   display: none;
+  // }
+  // .main-title{
+  //   display: flex;
+  //   flex-direction: column;
+  //   &__welcome{
+  //     padding-left: 100px;
+  //   }
+  // }
+  // .main-title__welcome{
+  //   justify-content: center;
+  //   padding-left: 0;
+  //   font-size: 30px;
 
-  }
-  .main-title__restoran{
-    padding-left: 0;
-    font-size: 40px;
-  }
-  .main-title__food{
-    padding-left: 0;
-    font-size: 15px;
-    span:first-child, span:last-child {
-      display: none;
-    }
-  }
-  .main-title__menu{
-  padding: 14px 28px;
-  margin-left: 0;
-  }
+  // }
+  // .main-title__restoran{
+  //   padding-left: 0;
+  //   font-size: 40px;
+  // }
+  // .main-title__food{
+  //   padding-left: 0;
+  //   font-size: 15px;
+  //   span:first-child, span:last-child {
+  //     display: none;
+  //   }
+  // }
+  // .main-title__menu{
+  // padding: 14px 28px;
+  // margin-left: 0;
+  // }
 }

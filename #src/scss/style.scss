@@ -14,10 +14,11 @@ $font: "Open Sans";
 
 .main {
   background-color: #0C0807;
-  ;
 }
 
 @import "main";
+
+@import "breakpoint";
 
 @import "history";
 
