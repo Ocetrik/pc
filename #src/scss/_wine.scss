@@ -6,13 +6,20 @@
   height: 732px;
 }
 
-.wine_container {
+.wine__container {
   max-width: 1440px;
-//  background: url(/img/wine.png) no-repeat;
   margin: 0 auto;
   height: 100%;
-  // background-size: 100% contain;
   img{
     width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .wine__container{
+    max-width: 320px;
+    img{
+      object-fit: none;
+      height: 566px;
+    }
   }
 }

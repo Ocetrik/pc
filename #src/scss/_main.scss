@@ -3,10 +3,7 @@
    margin: 0 auto;
    background: url("/img/heroimage.png") no-repeat;
  }
- @media (max-width: 992px)
- {
-    
- };
+
  .content-container {
    max-width: 1140px;
    padding-left: 15px;
@@ -159,3 +156,69 @@
    margin-left: 190px;
  }
  
+//  @include breakpoint() {
+
+//   .main-header{
+//     &__item{
+//       display: none;
+//     }
+//   }
+//   .header__url{
+//     display: none;
+//   }
+//   .header__item{
+//     display: none;
+//   }
+// }
+@media screen and (max-width: 992px) {
+  .main-container {
+    max-width: 320px;
+  }
+  .content-container {
+  }
+  .main__title {
+  }
+  .header__nav{
+      display: none;
+  }
+  .header__musor{
+      display: none;
+  }
+  .header__vertical-line{
+    display: none;
+  }
+  .header__phone{
+    display: none;
+  }
+  .header__order{
+    display: none;
+  }
+  .main-title{
+    display: flex;
+    flex-direction: column;
+    &__welcome{
+      padding-left: 100px;
+    }
+  }
+  .main-title__welcome{
+    justify-content: center;
+    padding-left: 0;
+    font-size: 30px;
+
+  }
+  .main-title__restoran{
+    padding-left: 0;
+    font-size: 40px;
+  }
+  .main-title__food{
+    padding-left: 0;
+    font-size: 15px;
+    span:first-child, span:last-child {
+      display: none;
+    }
+  }
+  .main-title__menu{
+  padding: 14px 28px;
+  margin-left: 0;
+  }
+}

@@ -11,7 +11,7 @@
  }
  
  .menu__title {
-   padding-bottom: 136px;
+   margin-bottom: 136px;
    font-family: 'Tinos';
    font-style: normal;
    font-weight: normal;
@@ -33,22 +33,23 @@
 }
 .item__pic {
    padding-top: 80px;
+   position: relative;
 }
 .item__title {
    font-family: 'Tinos';
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-line-height: 30px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 26px;
+   line-height: 30px;
    padding-top: 22px;
 }
 .item__text {
    padding-top: 17px;
    font-family: $font;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 22px;
 }
 .item__order {
    margin-top: 20px;
@@ -56,42 +57,75 @@ line-height: 22px;
    height: 50px;
    width: 220px;
    font-family: $font;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 22px;
-background: #D67E34;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-color: #fff;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 22px;
+   background: #D67E34;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+   color: #fff;
 }
 .item__elipse {
    position: absolute;
    background: #D67E34;
-border: 7px solid #FFFFFF;
-box-sizing: border-box;
-width: 100px;
-height: 100px;
-font-family: 'Cookie';
-font-weight: normal;
-font-size: 30px;
-line-height: 33px;
-border-radius: 100%;
-color: #fff;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 205px;
-margin-left: 190px;
+   border: 7px solid #FFFFFF;
+   box-sizing: border-box;
+   width: 100px;
+   height: 100px;
+   font-family: 'Cookie';
+   font-weight: normal;
+   font-size: 30px;
+   line-height: 33px;
+   border-radius: 100%;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   left: 192px;
+   top: 209px;
 }
 .item__rec {
    font-family: $font;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 18px;
-background: #D67E34;
-height: 36px;
-width: 124px;
-position: absolute;
-padding: 7px 11px 11px 12px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 18px;
+   background: #D67E34;
+   height: 36px;
+   width: 124px;
+   position: absolute;
+   padding: 7px 11px 11px 12px;
+}
+@media screen and (max-width: 992px) {
+   .menu__container {
+      max-width: 320px;
+      padding-top: 60px;
+      padding-bottom: 106px;
+   }
+   .content-container {
+   }
+   .menu__title {
+      margin-bottom: 100px;
+   }
+   .menu__list {
+      flex-direction: column;
+      align-items: center;
+   }
+   .item-1{
+      display: none;
+   }
+   .menu__item {
+      max-width: 290px;
+   }
+   .item__elipse {
+      left: 169px;
+      top: 205px;
+   }
+   .item__title {
+   }
+   .item__text {
+   }
+   .item__order {
+      margin-top: 14px;
+   }
 }

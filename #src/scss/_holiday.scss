@@ -50,4 +50,41 @@
    background: #FF7400;
    margin-left: auto;
  }
- 
+ @media screen and (max-width: 992px) {
+  .main__holiday {
+  }
+  .holiday__container {
+    max-width: 320px;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .content-container {
+
+  }
+  .holiday__row {
+    flex-direction: column;
+    max-width: 320px;
+  }
+  .holiday__info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .holiday__title {
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 200px;
+  }
+  .holiday__text {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .holiday__order {
+    margin-left: 24px;
+    width: 139px;
+    height: 43px;
+    margin-top: 41px;
+  }
+ }

@@ -30,7 +30,7 @@
 }
 
  .visitor__visitor {
-    padding-top: 16px;
+    margin-top: 16px;
    font-family: 'Open Sans';
    font-weight: 510;
    font-size: 20px;
@@ -43,7 +43,7 @@
    font-weight: normal;
    font-size: 20px;
    line-height: 27px;
-   padding-top: 9px;
+   margin-top: 9px;
 
  }
 
@@ -79,4 +79,21 @@
    box-sizing: border-box;
    width: 7px;
    height: 7px;
+ }
+
+ @media screen and (max-width: 992px) {
+  .visitor__container {
+    padding-top: 11px;
+    max-width: 320px;
+  }
+  .visitor__text {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .visitor__visitor {
+    margin-top: 5px;
+  }
+  .visitor__name {
+    margin-top: 5px;
+  }
  }
