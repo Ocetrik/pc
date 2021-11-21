@@ -8,22 +8,87 @@
    display: block;
 }
 .main-container {
-   height: 800px;
-   max-width: 320px;
+   height: 105vh;
+   //max-width: 320px;
    background: url("/img/heroimage.png") center;
 }
 .content-container {
 }
 .breakpoint__header {
+   display: flex;
+   // &header__burger:active{
+   //    &header__menu{
+   //       display: block;
+   //    }
+   // }
 }
 .header__logo {
    margin: 0;
-   margin-bottom: 252px;
+   margin-bottom: 80%;
    img{
       height: 31px;
    }
 }
 .header__burger {
+   z-index: 5;
+   position: relative;
+   width: 30px;
+   height: 16px;
+   cursor: pointer;
+   margin-left: auto;
+   right: 17px;
+   top: 26px;
+   span,
+   &::before,
+   &::after{
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 10%;
+      transition: all 0.3s ease 0s;
+      background: #FF7400;
+   }
+   &::before,
+   &::after{
+      content:"";
+   }
+   &::before{
+      top: 0;
+   }
+   &::after{
+      bottom: 0;
+   }
+   span{
+      top: 50%;
+      transform: scale(1) translate(0px, -50%);
+   }
+}
+.header__menu{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.9);
+   padding: 100px 30px 30px 30px;
+   transition: left 0.3s ease 0s;
+   // display: none;
+   overflow: auto;
+   left: -100%;
+}
+._active {
+   left: 0;
+}
+.nav__item{
+   margin: 20px;
+}
+.menu__url{
+   font-family: $font;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 19px;
+   color: #FFFFFF;
 }
 .breakpoint__title {
    display: flex;
